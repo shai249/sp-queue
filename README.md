@@ -1,10 +1,10 @@
-# BikeLife Queue System
+# S1hk0P1k0's Queue System
 
 A comprehensive and feature-rich queue system for FiveM servers with Discord integration, priority management, and advanced player handling.
 
 ## 🎯 Key Features
 
-### 🏍️ Advanced Queue Management
+### ⚙️ Advanced Queue Management
 
 - **Priority-based queuing** - Players with higher priority join first
 - **Smart position management** - Automatic queue sorting and optimization
@@ -45,7 +45,7 @@ A comprehensive and feature-rich queue system for FiveM servers with Discord int
 1. **Installation**: Place the resource in your FiveM resources folder
 2. **Configuration**: Edit `config.lua` with your Discord bot token and server settings
 3. **Discord Setup**: Configure your Discord bot and webhook URLs
-4. **Start Resource**: Add `start bl-queue` to your server.cfg
+4. **Ensure Resource**: Add `ensure sp-queue` to your server.cfg
 
 ## ⚙️ Configuration
 
@@ -96,18 +96,18 @@ Config.QueueTimePoints = {
 ### Basic Queue Information
 
 ```lua
-exports['bl-queue']:getQueueCount()  -- Returns number of players in queue
-exports['bl-queue']:isInQueue(source)  -- Check if player is queued
-exports['bl-queue']:getQueueList()  -- Get all players in queue
+exports['sp-queue']:getQueueCount()  -- Returns number of players in queue
+exports['sp-queue']:isInQueue(source)  -- Check if player is queued
+exports['sp-queue']:getQueueList()  -- Get all players in queue
 ```
 
 ### Advanced Functions
 
 ```lua
-exports['bl-queue']:getPrioData(source)  -- Get player priority information
-exports['bl-queue']:getQueueStats()  -- Get detailed queue statistics
-exports['bl-queue']:addPriorityPoints(source, points)  -- Add priority points
-exports['bl-queue']:removeFromQueue(source, reason)  -- Remove player from queue
+exports['sp-queue']:getPrioData(source)  -- Get player priority information
+exports['sp-queue']:getQueueStats()  -- Get detailed queue statistics
+exports['sp-queue']:addPriorityPoints(source, points)  -- Add priority points
+exports['sp-queue']:removeFromQueue(source, reason)  -- Remove player from queue
 ```
 
 ## 🎨 Customization
@@ -207,4 +207,4 @@ Use `testmvc` console command to verify all system components are loaded correct
 
 ---
 
-**Built for BikeLife by the BikeLife Development Team**
+**Built by S1hk0P1k0 - Sh1k0P1k0's Queue System Solutions**
