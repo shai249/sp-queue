@@ -18,7 +18,7 @@ Config.DefaultInfo = {
 
 -- Queue Settings
 Config.JoinDelay = 1000 -- Delay in milliseconds before processing player connection
-Config.QueueUpdateRate = 1000 -- How often to update queue in milliseconds (2 seconds recommended)
+Config.QueueUpdateRate = 1000 -- How often to update queue in milliseconds (1 seconds recommended)
 Config.TimeoutDuration = 300000 -- Time before timing out inactive players (5 minutes = 300000ms)
 Config.DirectConnectionDisplayTime = 3000 -- Time to show info screen for direct connections (3 seconds)
 
