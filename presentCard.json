@@ -1,0 +1,53 @@
+[
+  {
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+      {
+        "type": "Container",
+        "style": "attention",
+        "items": [
+          {
+            "type": "Image",
+            "url": "{{playerAvatar}}",
+            "size": "Medium",
+            "style": "Person",
+            "horizontalAlignment": "Center"
+          },
+          {
+            "type": "TextBlock",
+            "text": "Player Information",
+            "weight": "Bolder",
+            "size": "Medium",
+            "color": "Light",
+            "horizontalAlignment": "Center",
+            "spacing": "Small"
+          },
+          {
+            "type": "TextBlock",
+            "text": "Name: {{playerName}}",
+            "wrap": true,
+            "color": "Light",
+            "horizontalAlignment": "Center",
+            "spacing": "Medium"
+          },
+          {
+            "type": "TextBlock",
+            "text": "Points: {{priorityPoints}}",
+            "wrap": true,
+            "color": "Light",
+            "horizontalAlignment": "Center"
+          },
+          {
+            "type": "TextBlock",
+            "text": "Place: {{queuePosition}}",
+            "wrap": true,
+            "color": "Light",
+            "horizontalAlignment": "Center"
+          }
+        ]
+      }
+    ]
+  }
+]
